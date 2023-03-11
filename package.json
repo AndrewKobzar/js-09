@@ -1,21 +1,21 @@
 {
-  "name": "goit-js-hw-099",
+  "name": "js-09",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://AndrewKobzar.github.io/goit-js-hw-099",
+  "homepage": "https://AndrewKobzar.github.io/js-09",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-099/"
+    "build": "parcel build src/*.html --public-url /js-09/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndrewKobzar/goit-js-hw-099.git"
+    "url": "git+https://github.com/AndrewKobzar/js-09.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndrewKobzar/goit-js-hw-099/issues"
+    "url": "https://github.com/AndrewKobzar/js-09/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
