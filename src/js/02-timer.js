@@ -27,9 +27,8 @@ function convertMs(ms) {
 }
 
 const pad = value => {
-    return String(value).padStart(2, '0');
+  return String(value).padStart(2, '0');
 };
-
 
 const options = {
   enableTime: true,
