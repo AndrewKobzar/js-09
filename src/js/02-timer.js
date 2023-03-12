@@ -70,16 +70,16 @@ class Timer {
       hoursEl.textContent = components.hours;
       daysEl.textContent = components.days;
       if (deltaTime <= 0) {
-        this.stop();
+        clearInterval(this.timerId);
         timerDiv.innerHTML = 'Time is over!';
       }
     }, 1000);
   }
-  timerStop() {
-    clearInterval(this.timerId);
-  }
+
 }
 
 const timer = new Timer();
 flatpickr(inputEl, options);
 btnEl.addEventListener('click', () => timer.timerStart());
+
+
